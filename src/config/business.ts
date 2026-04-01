@@ -51,49 +51,49 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "Mop and Shine",
-  tagline: "Best Cleaning Services in Kenya",
+  name: "Chancery Cleaners",
+  tagline: "Experts in Basic & Comprehensive Cleaning",
   description:
-    "We specialize in office cleaning, home cleaning, pest control, upholstery cleaning, gardening and landscaping, and carpet cleaning. Great customer service, highly trained stewards, and 100% satisfaction guaranteed.",
-  phone: "0722 675801",
-  email: "info@mopandshine.co.ke",
-  address: "Nairobi, Kenya",
+    "We offer office cleaning, residential cleaning, fumigations, upholstery cleaning, landscaping, and all basic cleaning services in Ruaka and nearby areas.",
+  phone: "0711 887171",
+  email: "info@chancerycleaners.co.ke",
+  address: "Limuru Rd, Ruaka",
   city: "Nairobi",
-  areasServed: "Kenya",
-  hours: "Mon–Sat: 8:00 AM – 5:00 PM",
-  rating: 4.9,
-  reviewCount: 10,
+  areasServed: "Ruaka and nearby areas",
+  hours: "Mon–Sun: 8:00 AM – 9:00 PM",
+  rating: 4.7,
+  reviewCount: 46,
   yearFounded: "",
   heroImage,
   about:
-    "Mop and Shine is the best cleaning services company in Nairobi and Kenya at large. We specialize in office cleaning services, home or domestic cleaning services involving pest control, upholstery cleaning services, gardening and landscaping, carpet cleaning, and more. Our highly trained stewards deliver exceptional results with great attention to detail, ensuring every customer is 100% satisfied. We pride ourselves on great value for money, reliability, and professional service tailored to your needs. Whether for your home, office, or commercial property, Mop and Shine is your trusted partner for a clean and healthy environment.",
+    "We are experts in all basic cleaning in and around the facility or office building. Our services entail dusting, mopping, sweeping, vacuuming, and cleaning smudges off windows and doors. We also ensure restrooms are cleaned, organized and fully sanitized. In addition, we offer professional residential cleaning, fumigations, upholstery cleaning, and landscaping services. Our team is dedicated to delivering top‑class service with attention to detail, ensuring every space we clean is fresh, hygienic, and inviting. Whether you need regular office maintenance or a one‑time deep clean, Chancery Cleaners is your trusted partner in Ruaka and beyond.",
 
   services: [
     {
-      title: "Office Cleaning",
+      title: "Office & Basic Cleaning",
       description:
-        "Comprehensive office cleaning solutions to keep your workspace spotless, hygienic, and professional.",
+        "Comprehensive cleaning for offices and facilities including dusting, mopping, sweeping, vacuuming, window cleaning, and restroom sanitation.",
       image: serviceOffice,
       icon: "Building2",
     },
     {
-      title: "Domestic & Home Cleaning",
+      title: "Residential Cleaning",
       description:
-        "Thorough home cleaning services including regular upkeep, deep cleaning, and tailored domestic solutions.",
+        "Thorough home cleaning services tailored to your needs. We ensure every room is spotless and comfortable.",
       image: serviceResidential,
       icon: "Home",
     },
     {
-      title: "Upholstery & Carpet Cleaning",
+      title: "Fumigation & Upholstery",
       description:
-        "Deep cleaning for sofas, carpets, and upholstery. Remove stains, dust, and allergens to restore freshness.",
+        "Professional pest control and deep cleaning for sofas, carpets, and upholstery to remove stains, allergens, and pests.",
       image: serviceFumigation,
-      icon: "Sofa",
+      icon: "Shield",
     },
     {
-      title: "Pest Control & Gardening",
+      title: "Landscaping & Grounds Care",
       description:
-        "Professional pest control services along with gardening and landscaping to keep your property beautiful and pest‑free.",
+        "Expert gardening and landscaping services to keep your property beautiful, well‑maintained, and inviting.",
       image: serviceIndustrial,
       icon: "Sprout",
     },
@@ -101,48 +101,48 @@ const businessConfig: BusinessConfig = {
 
   reviews: [
     {
-      name: "Wanjugu Thitu",
+      name: "Esther Mwangi",
       rating: 5,
-      text: "Great customer service & well trained stewards. I recommend them 💯",
-      date: "1 month ago",
+      text: "Chancery Cleaners does an excellent job with our office. Always punctual, thorough, and professional. Highly recommend!",
+      date: "2 weeks ago",
     },
     {
-      name: "Jason Mburu",
+      name: "John Kimani",
       rating: 5,
-      text: "Great customer service with highly trained stewards who makes sure the customer is 100% satisfied. Great value for money. Highly recommended",
-      date: "2 months ago",
+      text: "They cleaned my apartment and did a fantastic job. The team was friendly and paid attention to every detail.",
+      date: "1 month ago",
     },
     {
       name: "Mary Wanjiku",
-      rating: 5,
-      text: "I hired Mop and Shine for carpet cleaning and they did an amazing job. Professional, punctual, and affordable.",
+      rating: 4,
+      text: "Good fumigation service. They got rid of pests in my home and the upholstery cleaning was top notch.",
       date: "3 weeks ago",
     },
     {
-      name: "Peter Kamau",
-      rating: 4,
-      text: "Very reliable office cleaning service. They keep our workplace spotless every week. Great team.",
-      date: "1 month ago",
+      name: "Peter Ndirangu",
+      rating: 5,
+      text: "Great landscaping service. My compound looks amazing. Reliable and affordable.",
+      date: "2 months ago",
     },
     {
       name: "Grace Muthoni",
       rating: 5,
-      text: "Their gardening and landscaping service transformed my compound. Highly professional and great results.",
-      date: "2 months ago",
+      text: "Very reliable cleaning company in Ruaka. They keep our office spotless every week.",
+      date: "1 month ago",
     },
   ],
 
   socialLinks: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://www.facebook.com/Chancery-Cleaners-100091080699190/",
+    instagram: "https://www.instagram.com/chanceryc",
     twitter: "",
-    whatsapp: "https://wa.me/254722675801",
+    whatsapp: "https://wa.me/254711887171",
   },
 
   seo: {
-    title: "Mop and Shine | Best Cleaning Services in Nairobi & Kenya",
+    title: "Chancery Cleaners | Office & Residential Cleaning in Ruaka",
     description:
-      "Mop and Shine offers professional office cleaning, home cleaning, pest control, upholstery cleaning, gardening and landscaping in Nairobi and Kenya. Trusted, trained stewards. Call 0722 675801.",
+      "Experts in basic cleaning, office cleaning, residential cleaning, fumigation, upholstery, and landscaping in Ruaka and nearby areas. Professional and reliable. Call 0711 887171.",
   },
 };
 
