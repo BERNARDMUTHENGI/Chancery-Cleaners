@@ -51,98 +51,98 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "Glitter & Greater Cleaning Services",
-  tagline: "Quality is Priority",
+  name: "Frevans Cleaning Company",
+  tagline: "Leading Professional Cleaning in Nairobi",
   description:
-    "Professional cleaning services dedicated to making your spaces shine. We serve Nairobi, Mombasa and environs with residential and commercial cleaning.",
-  phone: "0769 866752",
-  email: "info@glitterngreater.co.ke",
-  address: "Westlands, Nairobi",
+    "We specialize in office and house cleaning, sofa cleaning, carpet cleaning, and post‑construction cleaning. Quality service you can trust.",
+  phone: "0796 871239",
+  email: "frevanscleaning@gmail.com",
+  address: "Moi Avenue, South C South B, Nairobi",
   city: "Nairobi",
-  areasServed: "Nairobi, Mombasa and nearby areas",
-  hours: "Mon–Sun: 7:00 AM – 9:00 PM",
-  rating: 5.0,
-  reviewCount: 14,
+  areasServed: "Nairobi and nearby areas",
+  hours: "Mon–Sat: 9:00 AM – 5:00 PM",
+  rating: 4.8,
+  reviewCount: 31,
   yearFounded: "",
   heroImage,
   about:
-    "Glitter & Greater Cleaning Services is a professional cleaning company where quality is priority. We specialize in residential cleaning, commercial cleaning, and move‑in/move‑out deep cleaning. Our mission is to make your moving easier and your spaces spotless. With a dedicated team and a commitment to excellence, we ensure every job is done to the highest standard. Whether you need regular home cleaning, office maintenance, or a thorough deep clean, we deliver results that truly shine. Serving Nairobi, Mombasa, and surrounding areas, we take pride in reliable, affordable, and professional service.",
+    "Frevans Cleaning Company is a leading professional cleaning company in Nairobi, Kenya. We specialize in office and house cleaning, sofa cleaning, carpet cleaning, and post‑construction cleaning. Our team is dedicated to delivering exceptional results, whether you need regular maintenance or a one‑time deep clean. We take pride in our attention to detail, reliability, and commitment to customer satisfaction. With a focus on quality and professionalism, we ensure every space we clean is left spotless and fresh. Trust Frevans to handle all your cleaning needs in Nairobi and beyond.",
 
   services: [
     {
-      title: "Residential Cleaning",
+      title: "Office Cleaning",
       description:
-        "Thorough home cleaning services that leave every room fresh, tidy, and welcoming. Perfect for busy families and regular upkeep.",
-      image: serviceResidential,
-      icon: "Home",
-    },
-    {
-      title: "Commercial Cleaning",
-      description:
-        "Professional cleaning for offices, retail spaces, and commercial properties. We help you maintain a clean, productive environment.",
+        "Professional cleaning for offices, commercial spaces, and work environments. We help create a clean, healthy, and productive atmosphere.",
       image: serviceOffice,
       icon: "Building2",
     },
     {
-      title: "Move‑In / Move‑Out Deep Cleaning",
+      title: "House Cleaning",
       description:
-        "Comprehensive deep cleaning for properties before or after moving. We handle every detail so your space is perfectly prepared.",
-      image: serviceIndustrial,
-      icon: "Truck",
+        "Thorough residential cleaning services that cover every room. From regular upkeep to deep cleaning, your home will shine.",
+      image: serviceResidential,
+      icon: "Home",
     },
     {
-      title: "Office & Workspace Sanitization",
+      title: "Sofa & Carpet Cleaning",
       description:
-        "Specialized cleaning and disinfection for offices and workplaces. Keep your team safe and your workspace sparkling.",
+        "Deep cleaning for sofas, upholstery, and carpets. Remove stains, dust, and allergens to restore freshness and extend life.",
       image: serviceFumigation,
-      icon: "Sparkles",
+      icon: "Sofa",
+    },
+    {
+      title: "Post‑Construction Cleaning",
+      description:
+        "Comprehensive cleaning after construction or renovation. We remove dust, debris, and residues so your space is move‑in ready.",
+      image: serviceIndustrial,
+      icon: "Hammer",
     },
   ],
 
   reviews: [
     {
-      name: "Esther Mwangi",
+      name: "Grace Muthoni",
       rating: 5,
-      text: "Glitter & Greater did an amazing job with my apartment move-out clean. Everything was spotless and the landlord was impressed. Highly recommend!",
-      date: "1 week ago",
-    },
-    {
-      name: "Brian Omondi",
-      rating: 5,
-      text: "I hired them for office cleaning and they've been consistently great. Professional, punctual, and thorough. Quality is indeed priority.",
+      text: "Frevans did an excellent job with our office cleaning. Professional, punctual, and very thorough. Highly recommend!",
       date: "2 weeks ago",
     },
     {
-      name: "Catherine Wanjiku",
+      name: "John Ndirangu",
       rating: 5,
-      text: "Best cleaning service I've used in Nairobi. They made my home shine and were very affordable. Will definitely book again.",
+      text: "I hired them for sofa and carpet cleaning. My furniture looks brand new! Great service and friendly team.",
+      date: "1 month ago",
+    },
+    {
+      name: "Ann Wanjiku",
+      rating: 4,
+      text: "They did a good job with post-construction cleaning. The house was spotless and ready for us to move in.",
       date: "3 weeks ago",
     },
     {
-      name: "Michael Kiprop",
+      name: "Peter Kamau",
       rating: 5,
-      text: "They helped us with post-construction cleanup. The team was efficient and paid attention to every detail. Great service!",
+      text: "Very reliable cleaning company. They come on time and do a thorough job every week. My home is always fresh.",
       date: "1 month ago",
     },
     {
-      name: "Lucy Achieng",
+      name: "Lucy Njeri",
       rating: 5,
-      text: "Very reliable and friendly. My house has never been this clean. Thank you Glitter & Greater!",
-      date: "1 month ago",
+      text: "Best cleaning service in Nairobi! They cleaned my carpets and sofas, and the results were amazing. Will use them again.",
+      date: "2 months ago",
     },
   ],
 
   socialLinks: {
-    facebook: "https://www.facebook.com/glitterngreater",
-    instagram: "https://www.instagram.com/glitterngreater",
+    facebook: "",
+    instagram: "https://www.instagram.com/frevanscleaning",
     twitter: "",
-    whatsapp: "https://wa.me/254769866752",
+    whatsapp: "https://wa.me/254796871239",
   },
 
   seo: {
-    title: "Glitter & Greater Cleaning Services | Professional Cleaning in Nairobi & Mombasa",
+    title: "Frevans Cleaning Company | Professional Office & House Cleaning in Nairobi",
     description:
-      "Professional residential and commercial cleaning services in Nairobi and Mombasa. Deep cleaning, office sanitization, and move-in/out cleaning. Quality is priority. Call 0769 866752.",
+      "Leading cleaning company in Nairobi offering office cleaning, house cleaning, sofa & carpet cleaning, and post-construction cleaning. Reliable, professional service. Call 0796 871239.",
   },
 };
 
