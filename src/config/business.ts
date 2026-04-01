@@ -51,98 +51,74 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "Perfect Cleaning Services",
-  tagline: "Your Space, Perfectly Clean",
+  name: "PANARI CLEANING SERVICES",
+  tagline: "ISO Certified Professional Cleaning",
   description:
-    "We offer a wide range of affordable cleaning services including sofaset cleaning, mattress cleaning, fumigation, interior car cleaning, and office cleaning.",
-  phone: "0726 958553",
-  email: "perfectcleaningservices7@gmail.com",
-  address: "Mtongwe Rd, Nairobi",
+    "An ISO certified company and leading professional cleaning and allied services provider in Kenya. Members of ISSA, IDA, and KPCA.",
+  phone: "0704 918333",
+  email: "info@panaricleaning.co.ke",
+  address: "Kenyatta Avenue, Nairobi",
   city: "Nairobi",
-  areasServed: "Nairobi and surrounding areas",
-  hours: "Open 24 hours",
-  rating: 4.6,
-  reviewCount: 14,
+  areasServed: "Nairobi and nationwide",
+  hours: "Mon–Sun: 24 hours",
+  rating: 5.0,
+  reviewCount: 1,
   yearFounded: "",
   heroImage,
   about:
-    "Perfect Cleaning Services offers a wide range of professional cleaning solutions at affordable prices. We specialize in sofaset cleaning, mattress cleaning, fumigation, interior car cleaning, office cleaning, and general cleaning for homes and businesses. Our team is dedicated to delivering high‑quality results with attention to detail, using safe and effective methods. Whether you need to refresh your furniture, sanitize your car interior, or keep your office spotless, we are here to help. Customer satisfaction is our priority, and we take pride in making every space we clean truly perfect.",
+    "Panari Cleaning Services is an ISO certified company and the leading professional cleaning and allied services company in Kenya. Members of the International Sanitary Services Association (ISSA), International Detailers Association (IDA), and the Kenya Professional Cleaners Association (KPCA); we are committed to providing modern, professional, environmentally friendly and efficient service to commercial, industrial and domestic clients. Our dedication to quality and innovation ensures that every project is completed to the highest standards, using eco‑friendly products and state‑of‑the‑art equipment. Whether you need routine office cleaning, industrial facility maintenance, or specialized deep cleaning, our experienced team delivers excellence you can trust.",
 
   services: [
     {
-      title: "Sofaset & Mattress Cleaning",
+      title: "Commercial & Office Cleaning",
       description:
-        "Deep cleaning for sofas, upholstery, and mattresses. We remove stains, dust, and allergens to restore freshness and comfort.",
-      image: serviceResidential,
-      icon: "Sofa",
-    },
-    {
-      title: "Fumigation & Pest Control",
-      description:
-        "Professional fumigation to eliminate pests and ensure a healthy, safe environment for your home or office.",
-      image: serviceFumigation,
-      icon: "Shield",
-    },
-    {
-      title: "Interior Car Cleaning",
-      description:
-        "Thorough cleaning for vehicle interiors – seats, carpets, dashboard, and more. Leave your car fresh and spotless.",
-      image: serviceIndustrial,
-      icon: "Car",
-    },
-    {
-      title: "Office & General Cleaning",
-      description:
-        "Comprehensive cleaning for offices, commercial spaces, and homes. We handle everything from dusting to floor care.",
+        "Comprehensive cleaning solutions for offices, retail spaces, and commercial properties. We maintain a professional, hygienic environment for your business.",
       image: serviceOffice,
       icon: "Building2",
+    },
+    {
+      title: "Industrial Cleaning",
+      description:
+        "Heavy‑duty cleaning for factories, warehouses, and industrial facilities. Our team handles large‑scale projects with safety and efficiency.",
+      image: serviceIndustrial,
+      icon: "Factory",
+    },
+    {
+      title: "Domestic & Residential Cleaning",
+      description:
+        "High‑quality home cleaning services tailored to your needs. From regular upkeep to deep cleaning, your home will shine.",
+      image: serviceResidential,
+      icon: "Home",
+    },
+    {
+      title: "Specialized Sanitization",
+      description:
+        "Advanced disinfection and sanitization services for sensitive environments, using eco‑friendly and effective methods.",
+      image: serviceFumigation,
+      icon: "Shield",
     },
   ],
 
   reviews: [
     {
-      name: "Jane Wanjiku",
+      name: "David Mwangi",
       rating: 5,
-      text: "Perfect Cleaning did a wonderful job on my sofa set. It looks brand new! Very professional and affordable.",
-      date: "1 week ago",
-    },
-    {
-      name: "Michael Otieno",
-      rating: 4,
-      text: "Good service for car interior cleaning. They were thorough and my car smells great. Would recommend.",
-      date: "2 weeks ago",
-    },
-    {
-      name: "Grace Muthoni",
-      rating: 5,
-      text: "I hired them for office cleaning and they were punctual and did a thorough job. Very reliable.",
+      text: "Panari Cleaning Services provided exceptional service for our office. Professional, thorough, and ISO certified – you can trust them. Highly recommended!",
       date: "3 weeks ago",
-    },
-    {
-      name: "Peter Njoroge",
-      rating: 5,
-      text: "Their mattress cleaning service is excellent. My mattress feels fresh and clean. Great team!",
-      date: "1 month ago",
-    },
-    {
-      name: "Lucy Wairimu",
-      rating: 4,
-      text: "Affordable and efficient. They cleaned my carpets and did a good job. Will use them again.",
-      date: "1 month ago",
     },
   ],
 
   socialLinks: {
-    facebook: "https://www.facebook.com/Perfect-Cleaning-Services-105673651835455/",
-    instagram: "https://www.instagram.com/perfect.cleaningservices",
+    facebook: "",
+    instagram: "",
     twitter: "",
-    whatsapp: "https://wa.me/254726958553",
+    whatsapp: "https://wa.me/254704918333",
   },
 
   seo: {
-    title: "Perfect Cleaning Services | Sofa, Carpet & Office Cleaning in Nairobi",
+    title: "PANARI CLEANING SERVICES | ISO Certified Cleaning Company in Nairobi",
     description:
-      "Affordable cleaning services in Nairobi: sofaset cleaning, mattress cleaning, fumigation, interior car cleaning, and office cleaning. Reliable and professional. Call 0726 958553.",
+      "ISO certified professional cleaning company in Nairobi. Members of ISSA, IDA, and KPCA. Commercial, industrial, and domestic cleaning. Environmentally friendly. Call 0704 918333.",
   },
 };
 
