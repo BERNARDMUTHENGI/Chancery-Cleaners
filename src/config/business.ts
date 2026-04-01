@@ -51,98 +51,98 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "Nairobi StayCare Cleaning Services",
-  tagline: "Reliable House & Carpet Cleaning You Can Trust",
+  name: "Westpam Cleaning Services",
+  tagline: "Professional Cleaning Services You Can Count On",
   description:
-    "Affordable, professional cleaning services in Kasarani and nearby areas. We specialize in house cleaning, sofa & carpet cleaning, deep cleaning, and laundry.",
-  phone: "0797 132778",
-  email: "info@nairobistaycare.co.ke",
-  address: "Kahawa Sukari, Nairobi",
+    "We offer excellent cleaning services to suit your needs. Our dedicated, professional, and qualified staff deliver top-quality residential, office, and commercial cleaning.",
+  phone: "0735 766663",
+  email: "westpamcleaning@gmail.com",
+  address: "Westlands, Nairobi",
   city: "Nairobi",
-  areasServed: "Kahawa Sukari, Kasarani, and nearby areas",
-  hours: "Mon–Sat: 9:00 AM – 5:00 PM",
+  areasServed: "Nairobi and surrounding areas",
+  hours: "Open 24 hours",
   rating: 5.0,
-  reviewCount: 5,
-  yearFounded: "2023",
+  reviewCount: 13,
+  yearFounded: "",
   heroImage,
   about:
-    "Nairobi StayCare provides reliable house and carpet cleaning services in Kasarani and nearby areas. We offer house cleaning, apartment cleaning, sofa and carpet cleaning, and move-in or move-out deep cleaning and laundry services. Our goal is to provide affordable, professional cleaning that leaves homes fresh and comfortable. With a focus on guest-ready turnovers for Airbnb hosts, we ensure every space is spotless and inviting. Our team is dedicated to delivering high-quality results with attention to detail, using safe and effective cleaning methods. Whether you need regular maintenance or a one-time deep clean, we are here to help you enjoy a cleaner, healthier home.",
+    "At Westpam Cleaning Services we offer excellent cleaning services to suit your needs. We have a dedicated staff who are professional and qualified. Our services include residential cleaning, office cleaning, commercial cleaning, carpet cleaning, fumigation, home deep cleaning, and car interior cleaning. We take pride in delivering spotless results with attention to detail, ensuring your space is hygienic, fresh, and inviting. Whether you need regular maintenance or a one-time deep clean, our team is ready to serve you with reliability and excellence.",
 
   services: [
     {
       title: "Residential Cleaning",
       description:
-        "Thorough house and apartment cleaning services that leave every room sparkling clean and fresh. Ideal for regular maintenance or one-off cleans.",
+        "Thorough home and apartment cleaning services. We ensure every room is spotless, from deep cleaning to regular upkeep.",
       image: serviceResidential,
       icon: "Home",
     },
     {
-      title: "Carpet & Sofa Cleaning",
+      title: "Office & Commercial Cleaning",
       description:
-        "Professional deep cleaning for carpets, rugs, and upholstery. Remove stains, dirt, and allergens to restore freshness and extend the life of your furniture.",
-      image: serviceFumigation,
-      icon: "Sofa",
-    },
-    {
-      title: "Deep Cleaning (Move In/Out)",
-      description:
-        "Comprehensive deep cleaning for move-in or move-out situations. We cover every corner, ensuring the property is spotless and ready for its next occupant.",
+        "Professional cleaning for offices, commercial properties, and workspaces. Keep your business environment clean, healthy, and productive.",
       image: serviceOffice,
-      icon: "Sparkles",
+      icon: "Building2",
     },
     {
-      title: "Laundry Services",
+      title: "Carpet & Fumigation Services",
       description:
-        "Convenient laundry and dry cleaning services. Let us handle your laundry so you can focus on what matters most.",
+        "Deep carpet cleaning to remove stains and allergens, plus effective fumigation to eliminate cockroaches and other pests.",
+      image: serviceFumigation,
+      icon: "Shield",
+    },
+    {
+      title: "Car Interior & Deep Cleaning",
+      description:
+        "Comprehensive deep cleaning for vehicles and homes. We leave every surface sparkling, inside and out.",
       image: serviceIndustrial,
-      icon: "Shirt",
+      icon: "Car",
     },
   ],
 
   reviews: [
     {
-      name: "Anne Wanjiku",
+      name: "James Kariuki",
       rating: 5,
-      text: "Excellent service! They cleaned my apartment thoroughly and were very professional. Highly recommend Nairobi StayCare.",
+      text: "Westpam did an amazing job cleaning my office. Very professional and thorough. Highly recommend!",
+      date: "1 week ago",
+    },
+    {
+      name: "Mary Wambui",
+      rating: 5,
+      text: "I hired them for home deep cleaning and was impressed. The team arrived on time and left my house spotless.",
       date: "2 weeks ago",
     },
     {
-      name: "John Mwangi",
+      name: "Peter Njuguna",
       rating: 5,
-      text: "Best carpet cleaning I've ever had. They removed tough stains and the sofa looks brand new. Very happy with the service.",
-      date: "1 month ago",
-    },
-    {
-      name: "Mercy Karanja",
-      rating: 5,
-      text: "I used their move-out deep cleaning service and the landlord was impressed. The team was punctual and did a fantastic job.",
+      text: "Their carpet cleaning and fumigation service was excellent. No more cockroaches and carpets look brand new.",
       date: "3 weeks ago",
     },
     {
-      name: "Peter Odhiambo",
+      name: "Lucy Muthoni",
       rating: 5,
-      text: "Great laundry service! They picked up and delivered on time. Clothes came back fresh and neatly folded. Will definitely use again.",
+      text: "Reliable and affordable. I use them for regular residential cleaning and they never disappoint.",
       date: "1 month ago",
     },
     {
-      name: "Lucy Njoroge",
+      name: "Daniel Otieno",
       rating: 5,
-      text: "Affordable and reliable. They cleaned my Airbnb unit and it was guest-ready in no time. Great attention to detail.",
-      date: "2 months ago",
+      text: "Great service for car interior cleaning. My car smells fresh and looks immaculate. Will definitely use again.",
+      date: "1 month ago",
     },
   ],
 
   socialLinks: {
-    facebook: "",
-    instagram: "https://www.instagram.com/nairobistaycare",
+    facebook: "https://www.facebook.com/westpamcleaningservices",
+    instagram: "https://www.instagram.com/westpam_cleaningservices",
     twitter: "",
-    whatsapp: "https://wa.me/254797132778",
+    whatsapp: "https://wa.me/254735766663",
   },
 
   seo: {
-    title: "Nairobi StayCare Cleaning Services | Reliable House & Carpet Cleaning in Kasarani",
+    title: "Westpam Cleaning Services | Professional Cleaning in Nairobi",
     description:
-      "Affordable professional cleaning services in Kasarani, Nairobi. House cleaning, carpet & sofa cleaning, deep cleaning, laundry and Airbnb turnovers. Book today!",
+      "Westpam Cleaning Services offers residential, office, commercial cleaning, carpet cleaning, fumigation, and deep cleaning in Nairobi. Professional and reliable. Call 0735 766663.",
   },
 };
 
