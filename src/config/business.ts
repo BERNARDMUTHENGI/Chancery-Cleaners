@@ -51,98 +51,98 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "Westpam Cleaning Services",
-  tagline: "Professional Cleaning Services You Can Count On",
+  name: "Glitter & Greater Cleaning Services",
+  tagline: "Quality is Priority",
   description:
-    "We offer excellent cleaning services to suit your needs. Our dedicated, professional, and qualified staff deliver top-quality residential, office, and commercial cleaning.",
-  phone: "0735 766663",
-  email: "westpamcleaning@gmail.com",
+    "Professional cleaning services dedicated to making your spaces shine. We serve Nairobi, Mombasa and environs with residential and commercial cleaning.",
+  phone: "0769 866752",
+  email: "info@glitterngreater.co.ke",
   address: "Westlands, Nairobi",
   city: "Nairobi",
-  areasServed: "Nairobi and surrounding areas",
-  hours: "Open 24 hours",
+  areasServed: "Nairobi, Mombasa and nearby areas",
+  hours: "Mon–Sun: 7:00 AM – 9:00 PM",
   rating: 5.0,
-  reviewCount: 13,
+  reviewCount: 14,
   yearFounded: "",
   heroImage,
   about:
-    "At Westpam Cleaning Services we offer excellent cleaning services to suit your needs. We have a dedicated staff who are professional and qualified. Our services include residential cleaning, office cleaning, commercial cleaning, carpet cleaning, fumigation, home deep cleaning, and car interior cleaning. We take pride in delivering spotless results with attention to detail, ensuring your space is hygienic, fresh, and inviting. Whether you need regular maintenance or a one-time deep clean, our team is ready to serve you with reliability and excellence.",
+    "Glitter & Greater Cleaning Services is a professional cleaning company where quality is priority. We specialize in residential cleaning, commercial cleaning, and move‑in/move‑out deep cleaning. Our mission is to make your moving easier and your spaces spotless. With a dedicated team and a commitment to excellence, we ensure every job is done to the highest standard. Whether you need regular home cleaning, office maintenance, or a thorough deep clean, we deliver results that truly shine. Serving Nairobi, Mombasa, and surrounding areas, we take pride in reliable, affordable, and professional service.",
 
   services: [
     {
       title: "Residential Cleaning",
       description:
-        "Thorough home and apartment cleaning services. We ensure every room is spotless, from deep cleaning to regular upkeep.",
+        "Thorough home cleaning services that leave every room fresh, tidy, and welcoming. Perfect for busy families and regular upkeep.",
       image: serviceResidential,
       icon: "Home",
     },
     {
-      title: "Office & Commercial Cleaning",
+      title: "Commercial Cleaning",
       description:
-        "Professional cleaning for offices, commercial properties, and workspaces. Keep your business environment clean, healthy, and productive.",
+        "Professional cleaning for offices, retail spaces, and commercial properties. We help you maintain a clean, productive environment.",
       image: serviceOffice,
       icon: "Building2",
     },
     {
-      title: "Carpet & Fumigation Services",
+      title: "Move‑In / Move‑Out Deep Cleaning",
       description:
-        "Deep carpet cleaning to remove stains and allergens, plus effective fumigation to eliminate cockroaches and other pests.",
-      image: serviceFumigation,
-      icon: "Shield",
+        "Comprehensive deep cleaning for properties before or after moving. We handle every detail so your space is perfectly prepared.",
+      image: serviceIndustrial,
+      icon: "Truck",
     },
     {
-      title: "Car Interior & Deep Cleaning",
+      title: "Office & Workspace Sanitization",
       description:
-        "Comprehensive deep cleaning for vehicles and homes. We leave every surface sparkling, inside and out.",
-      image: serviceIndustrial,
-      icon: "Car",
+        "Specialized cleaning and disinfection for offices and workplaces. Keep your team safe and your workspace sparkling.",
+      image: serviceFumigation,
+      icon: "Sparkles",
     },
   ],
 
   reviews: [
     {
-      name: "James Kariuki",
+      name: "Esther Mwangi",
       rating: 5,
-      text: "Westpam did an amazing job cleaning my office. Very professional and thorough. Highly recommend!",
+      text: "Glitter & Greater did an amazing job with my apartment move-out clean. Everything was spotless and the landlord was impressed. Highly recommend!",
       date: "1 week ago",
     },
     {
-      name: "Mary Wambui",
+      name: "Brian Omondi",
       rating: 5,
-      text: "I hired them for home deep cleaning and was impressed. The team arrived on time and left my house spotless.",
+      text: "I hired them for office cleaning and they've been consistently great. Professional, punctual, and thorough. Quality is indeed priority.",
       date: "2 weeks ago",
     },
     {
-      name: "Peter Njuguna",
+      name: "Catherine Wanjiku",
       rating: 5,
-      text: "Their carpet cleaning and fumigation service was excellent. No more cockroaches and carpets look brand new.",
+      text: "Best cleaning service I've used in Nairobi. They made my home shine and were very affordable. Will definitely book again.",
       date: "3 weeks ago",
     },
     {
-      name: "Lucy Muthoni",
+      name: "Michael Kiprop",
       rating: 5,
-      text: "Reliable and affordable. I use them for regular residential cleaning and they never disappoint.",
+      text: "They helped us with post-construction cleanup. The team was efficient and paid attention to every detail. Great service!",
       date: "1 month ago",
     },
     {
-      name: "Daniel Otieno",
+      name: "Lucy Achieng",
       rating: 5,
-      text: "Great service for car interior cleaning. My car smells fresh and looks immaculate. Will definitely use again.",
+      text: "Very reliable and friendly. My house has never been this clean. Thank you Glitter & Greater!",
       date: "1 month ago",
     },
   ],
 
   socialLinks: {
-    facebook: "https://www.facebook.com/westpamcleaningservices",
-    instagram: "https://www.instagram.com/westpam_cleaningservices",
+    facebook: "https://www.facebook.com/glitterngreater",
+    instagram: "https://www.instagram.com/glitterngreater",
     twitter: "",
-    whatsapp: "https://wa.me/254735766663",
+    whatsapp: "https://wa.me/254769866752",
   },
 
   seo: {
-    title: "Westpam Cleaning Services | Professional Cleaning in Nairobi",
+    title: "Glitter & Greater Cleaning Services | Professional Cleaning in Nairobi & Mombasa",
     description:
-      "Westpam Cleaning Services offers residential, office, commercial cleaning, carpet cleaning, fumigation, and deep cleaning in Nairobi. Professional and reliable. Call 0735 766663.",
+      "Professional residential and commercial cleaning services in Nairobi and Mombasa. Deep cleaning, office sanitization, and move-in/out cleaning. Quality is priority. Call 0769 866752.",
   },
 };
 
