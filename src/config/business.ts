@@ -51,98 +51,98 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "Frevans Cleaning Company",
-  tagline: "Leading Professional Cleaning in Nairobi",
+  name: "Perfect Cleaning Services",
+  tagline: "Your Space, Perfectly Clean",
   description:
-    "We specialize in office and house cleaning, sofa cleaning, carpet cleaning, and post‑construction cleaning. Quality service you can trust.",
-  phone: "0796 871239",
-  email: "frevanscleaning@gmail.com",
-  address: "Moi Avenue, South C South B, Nairobi",
+    "We offer a wide range of affordable cleaning services including sofaset cleaning, mattress cleaning, fumigation, interior car cleaning, and office cleaning.",
+  phone: "0726 958553",
+  email: "perfectcleaningservices7@gmail.com",
+  address: "Mtongwe Rd, Nairobi",
   city: "Nairobi",
-  areasServed: "Nairobi and nearby areas",
-  hours: "Mon–Sat: 9:00 AM – 5:00 PM",
-  rating: 4.8,
-  reviewCount: 31,
+  areasServed: "Nairobi and surrounding areas",
+  hours: "Open 24 hours",
+  rating: 4.6,
+  reviewCount: 14,
   yearFounded: "",
   heroImage,
   about:
-    "Frevans Cleaning Company is a leading professional cleaning company in Nairobi, Kenya. We specialize in office and house cleaning, sofa cleaning, carpet cleaning, and post‑construction cleaning. Our team is dedicated to delivering exceptional results, whether you need regular maintenance or a one‑time deep clean. We take pride in our attention to detail, reliability, and commitment to customer satisfaction. With a focus on quality and professionalism, we ensure every space we clean is left spotless and fresh. Trust Frevans to handle all your cleaning needs in Nairobi and beyond.",
+    "Perfect Cleaning Services offers a wide range of professional cleaning solutions at affordable prices. We specialize in sofaset cleaning, mattress cleaning, fumigation, interior car cleaning, office cleaning, and general cleaning for homes and businesses. Our team is dedicated to delivering high‑quality results with attention to detail, using safe and effective methods. Whether you need to refresh your furniture, sanitize your car interior, or keep your office spotless, we are here to help. Customer satisfaction is our priority, and we take pride in making every space we clean truly perfect.",
 
   services: [
     {
-      title: "Office Cleaning",
+      title: "Sofaset & Mattress Cleaning",
       description:
-        "Professional cleaning for offices, commercial spaces, and work environments. We help create a clean, healthy, and productive atmosphere.",
-      image: serviceOffice,
-      icon: "Building2",
-    },
-    {
-      title: "House Cleaning",
-      description:
-        "Thorough residential cleaning services that cover every room. From regular upkeep to deep cleaning, your home will shine.",
+        "Deep cleaning for sofas, upholstery, and mattresses. We remove stains, dust, and allergens to restore freshness and comfort.",
       image: serviceResidential,
-      icon: "Home",
-    },
-    {
-      title: "Sofa & Carpet Cleaning",
-      description:
-        "Deep cleaning for sofas, upholstery, and carpets. Remove stains, dust, and allergens to restore freshness and extend life.",
-      image: serviceFumigation,
       icon: "Sofa",
     },
     {
-      title: "Post‑Construction Cleaning",
+      title: "Fumigation & Pest Control",
       description:
-        "Comprehensive cleaning after construction or renovation. We remove dust, debris, and residues so your space is move‑in ready.",
+        "Professional fumigation to eliminate pests and ensure a healthy, safe environment for your home or office.",
+      image: serviceFumigation,
+      icon: "Shield",
+    },
+    {
+      title: "Interior Car Cleaning",
+      description:
+        "Thorough cleaning for vehicle interiors – seats, carpets, dashboard, and more. Leave your car fresh and spotless.",
       image: serviceIndustrial,
-      icon: "Hammer",
+      icon: "Car",
+    },
+    {
+      title: "Office & General Cleaning",
+      description:
+        "Comprehensive cleaning for offices, commercial spaces, and homes. We handle everything from dusting to floor care.",
+      image: serviceOffice,
+      icon: "Building2",
     },
   ],
 
   reviews: [
     {
-      name: "Grace Muthoni",
+      name: "Jane Wanjiku",
       rating: 5,
-      text: "Frevans did an excellent job with our office cleaning. Professional, punctual, and very thorough. Highly recommend!",
+      text: "Perfect Cleaning did a wonderful job on my sofa set. It looks brand new! Very professional and affordable.",
+      date: "1 week ago",
+    },
+    {
+      name: "Michael Otieno",
+      rating: 4,
+      text: "Good service for car interior cleaning. They were thorough and my car smells great. Would recommend.",
       date: "2 weeks ago",
     },
     {
-      name: "John Ndirangu",
+      name: "Grace Muthoni",
       rating: 5,
-      text: "I hired them for sofa and carpet cleaning. My furniture looks brand new! Great service and friendly team.",
-      date: "1 month ago",
-    },
-    {
-      name: "Ann Wanjiku",
-      rating: 4,
-      text: "They did a good job with post-construction cleaning. The house was spotless and ready for us to move in.",
+      text: "I hired them for office cleaning and they were punctual and did a thorough job. Very reliable.",
       date: "3 weeks ago",
     },
     {
-      name: "Peter Kamau",
+      name: "Peter Njoroge",
       rating: 5,
-      text: "Very reliable cleaning company. They come on time and do a thorough job every week. My home is always fresh.",
+      text: "Their mattress cleaning service is excellent. My mattress feels fresh and clean. Great team!",
       date: "1 month ago",
     },
     {
-      name: "Lucy Njeri",
-      rating: 5,
-      text: "Best cleaning service in Nairobi! They cleaned my carpets and sofas, and the results were amazing. Will use them again.",
-      date: "2 months ago",
+      name: "Lucy Wairimu",
+      rating: 4,
+      text: "Affordable and efficient. They cleaned my carpets and did a good job. Will use them again.",
+      date: "1 month ago",
     },
   ],
 
   socialLinks: {
-    facebook: "",
-    instagram: "https://www.instagram.com/frevanscleaning",
+    facebook: "https://www.facebook.com/Perfect-Cleaning-Services-105673651835455/",
+    instagram: "https://www.instagram.com/perfect.cleaningservices",
     twitter: "",
-    whatsapp: "https://wa.me/254796871239",
+    whatsapp: "https://wa.me/254726958553",
   },
 
   seo: {
-    title: "Frevans Cleaning Company | Professional Office & House Cleaning in Nairobi",
+    title: "Perfect Cleaning Services | Sofa, Carpet & Office Cleaning in Nairobi",
     description:
-      "Leading cleaning company in Nairobi offering office cleaning, house cleaning, sofa & carpet cleaning, and post-construction cleaning. Reliable, professional service. Call 0796 871239.",
+      "Affordable cleaning services in Nairobi: sofaset cleaning, mattress cleaning, fumigation, interior car cleaning, and office cleaning. Reliable and professional. Call 0726 958553.",
   },
 };
 
