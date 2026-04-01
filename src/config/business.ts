@@ -51,98 +51,98 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "ParamountClear Cleaning Services",
-  tagline: "Professional Cleaning You Can Trust",
+  name: "Nairobi StayCare Cleaning Services",
+  tagline: "Reliable House & Carpet Cleaning You Can Trust",
   description:
-    "The leading professional cleaning and allied services company in Kenya. Modern, professional, environmentally friendly and efficient service.",
-  phone: "0712 773330",
-  email: "info@paramountclear.co.ke",
-  address: "Nairobi, Kenya",
+    "Affordable, professional cleaning services in Kasarani and nearby areas. We specialize in house cleaning, sofa & carpet cleaning, deep cleaning, and laundry.",
+  phone: "0797 132778",
+  email: "info@nairobistaycare.co.ke",
+  address: "Kahawa Sukari, Nairobi",
   city: "Nairobi",
-  areasServed: "Nairobi and nearby areas",
-  hours: "Mon–Sat: 7:00 AM – 7:00 PM",
-  rating: 4.9,
-  reviewCount: 13,
-  yearFounded: "2018",
+  areasServed: "Kahawa Sukari, Kasarani, and nearby areas",
+  hours: "Mon–Sat: 9:00 AM – 5:00 PM",
+  rating: 5.0,
+  reviewCount: 5,
+  yearFounded: "2023",
   heroImage,
   about:
-    "PARAMOUNTCLEAR Cleaning Services is a Registered company and the leading professional cleaning and allied services company in Kenya. We are committed to providing modern, professional, environmentally friendly and efficient service to commercial, industrial and domestic clients. Over the years, we've learned that great service begins and ends with experienced and friendly professionals, which explains our rigorous hiring process. We believe that our team is the best in the business, and have complete and total confidence in every person providing our services. PARAMOUNTCLEAR CLEANING SERVICES finishes each project on schedule and with the highest level of quality.",
+    "Nairobi StayCare provides reliable house and carpet cleaning services in Kasarani and nearby areas. We offer house cleaning, apartment cleaning, sofa and carpet cleaning, and move-in or move-out deep cleaning and laundry services. Our goal is to provide affordable, professional cleaning that leaves homes fresh and comfortable. With a focus on guest-ready turnovers for Airbnb hosts, we ensure every space is spotless and inviting. Our team is dedicated to delivering high-quality results with attention to detail, using safe and effective cleaning methods. Whether you need regular maintenance or a one-time deep clean, we are here to help you enjoy a cleaner, healthier home.",
 
   services: [
     {
-      title: "Office Cleaning",
-      description:
-        "Comprehensive office cleaning solutions to keep your workspace spotless, hygienic, and productive.",
-      image: serviceOffice,
-      icon: "Building2",
-    },
-    {
       title: "Residential Cleaning",
       description:
-        "Thorough home cleaning services that leave every room sparkling clean and fresh.",
+        "Thorough house and apartment cleaning services that leave every room sparkling clean and fresh. Ideal for regular maintenance or one-off cleans.",
       image: serviceResidential,
       icon: "Home",
     },
     {
-      title: "Fumigation Services",
+      title: "Carpet & Sofa Cleaning",
       description:
-        "Professional pest control and fumigation to protect your property from unwanted pests.",
+        "Professional deep cleaning for carpets, rugs, and upholstery. Remove stains, dirt, and allergens to restore freshness and extend the life of your furniture.",
       image: serviceFumigation,
-      icon: "Shield",
+      icon: "Sofa",
     },
     {
-      title: "Industrial Cleaning",
+      title: "Deep Cleaning (Move In/Out)",
       description:
-        "Heavy-duty cleaning for warehouses, factories, and industrial facilities.",
+        "Comprehensive deep cleaning for move-in or move-out situations. We cover every corner, ensuring the property is spotless and ready for its next occupant.",
+      image: serviceOffice,
+      icon: "Sparkles",
+    },
+    {
+      title: "Laundry Services",
+      description:
+        "Convenient laundry and dry cleaning services. Let us handle your laundry so you can focus on what matters most.",
       image: serviceIndustrial,
-      icon: "Factory",
+      icon: "Shirt",
     },
   ],
 
   reviews: [
     {
-      name: "James Mwangi",
+      name: "Anne Wanjiku",
       rating: 5,
-      text: "Excellent service! They cleaned our office thoroughly and were very professional. Highly recommend ParamountClear.",
+      text: "Excellent service! They cleaned my apartment thoroughly and were very professional. Highly recommend Nairobi StayCare.",
       date: "2 weeks ago",
     },
     {
-      name: "Sarah Wanjiku",
+      name: "John Mwangi",
       rating: 5,
-      text: "I've been using their residential cleaning services for 6 months now. Always on time and the quality is consistently great.",
+      text: "Best carpet cleaning I've ever had. They removed tough stains and the sofa looks brand new. Very happy with the service.",
       date: "1 month ago",
     },
     {
-      name: "David Ochieng",
+      name: "Mercy Karanja",
       rating: 5,
-      text: "Their fumigation service was top-notch. No more pest problems since they treated our warehouse. Very professional team.",
+      text: "I used their move-out deep cleaning service and the landlord was impressed. The team was punctual and did a fantastic job.",
+      date: "3 weeks ago",
+    },
+    {
+      name: "Peter Odhiambo",
+      rating: 5,
+      text: "Great laundry service! They picked up and delivered on time. Clothes came back fresh and neatly folded. Will definitely use again.",
       date: "1 month ago",
     },
     {
-      name: "Grace Njeri",
-      rating: 4,
-      text: "Good cleaning service overall. The team was friendly and did a solid job on our apartment. Would use again.",
+      name: "Lucy Njoroge",
+      rating: 5,
+      text: "Affordable and reliable. They cleaned my Airbnb unit and it was guest-ready in no time. Great attention to detail.",
       date: "2 months ago",
-    },
-    {
-      name: "Peter Kamau",
-      rating: 5,
-      text: "Best cleaning company in Nairobi! They handled our post-construction cleanup perfectly. Incredible attention to detail.",
-      date: "3 months ago",
     },
   ],
 
   socialLinks: {
-    facebook: "https://www.facebook.com/paramountclear",
-    instagram: "https://www.instagram.com/pcl.eaning",
-    twitter: "https://x.com/paramountclear",
-    whatsapp: "https://wa.me/254712773330",
+    facebook: "",
+    instagram: "https://www.instagram.com/nairobistaycare",
+    twitter: "",
+    whatsapp: "https://wa.me/254797132778",
   },
 
   seo: {
-    title: "ParamountClear Cleaning Services | Professional Cleaning in Nairobi",
+    title: "Nairobi StayCare Cleaning Services | Reliable House & Carpet Cleaning in Kasarani",
     description:
-      "Professional cleaning, fumigation and allied services in Nairobi. Commercial, industrial and domestic cleaning by ParamountClear.",
+      "Affordable professional cleaning services in Kasarani, Nairobi. House cleaning, carpet & sofa cleaning, deep cleaning, laundry and Airbnb turnovers. Book today!",
   },
 };
 
