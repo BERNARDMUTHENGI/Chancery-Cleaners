@@ -51,60 +51,84 @@ export interface BusinessConfig {
 }
 
 const businessConfig: BusinessConfig = {
-  name: "PANARI CLEANING SERVICES",
-  tagline: "ISO Certified Professional Cleaning",
+  name: "Mop and Shine",
+  tagline: "Best Cleaning Services in Kenya",
   description:
-    "An ISO certified company and leading professional cleaning and allied services provider in Kenya. Members of ISSA, IDA, and KPCA.",
-  phone: "0704 918333",
-  email: "info@panaricleaning.co.ke",
-  address: "Kenyatta Avenue, Nairobi",
+    "We specialize in office cleaning, home cleaning, pest control, upholstery cleaning, gardening and landscaping, and carpet cleaning. Great customer service, highly trained stewards, and 100% satisfaction guaranteed.",
+  phone: "0722 675801",
+  email: "info@mopandshine.co.ke",
+  address: "Nairobi, Kenya",
   city: "Nairobi",
-  areasServed: "Nairobi and nationwide",
-  hours: "Mon–Sun: 24 hours",
-  rating: 5.0,
-  reviewCount: 1,
+  areasServed: "Kenya",
+  hours: "Mon–Sat: 8:00 AM – 5:00 PM",
+  rating: 4.9,
+  reviewCount: 10,
   yearFounded: "",
   heroImage,
   about:
-    "Panari Cleaning Services is an ISO certified company and the leading professional cleaning and allied services company in Kenya. Members of the International Sanitary Services Association (ISSA), International Detailers Association (IDA), and the Kenya Professional Cleaners Association (KPCA); we are committed to providing modern, professional, environmentally friendly and efficient service to commercial, industrial and domestic clients. Our dedication to quality and innovation ensures that every project is completed to the highest standards, using eco‑friendly products and state‑of‑the‑art equipment. Whether you need routine office cleaning, industrial facility maintenance, or specialized deep cleaning, our experienced team delivers excellence you can trust.",
+    "Mop and Shine is the best cleaning services company in Nairobi and Kenya at large. We specialize in office cleaning services, home or domestic cleaning services involving pest control, upholstery cleaning services, gardening and landscaping, carpet cleaning, and more. Our highly trained stewards deliver exceptional results with great attention to detail, ensuring every customer is 100% satisfied. We pride ourselves on great value for money, reliability, and professional service tailored to your needs. Whether for your home, office, or commercial property, Mop and Shine is your trusted partner for a clean and healthy environment.",
 
   services: [
     {
-      title: "Commercial & Office Cleaning",
+      title: "Office Cleaning",
       description:
-        "Comprehensive cleaning solutions for offices, retail spaces, and commercial properties. We maintain a professional, hygienic environment for your business.",
+        "Comprehensive office cleaning solutions to keep your workspace spotless, hygienic, and professional.",
       image: serviceOffice,
       icon: "Building2",
     },
     {
-      title: "Industrial Cleaning",
+      title: "Domestic & Home Cleaning",
       description:
-        "Heavy‑duty cleaning for factories, warehouses, and industrial facilities. Our team handles large‑scale projects with safety and efficiency.",
-      image: serviceIndustrial,
-      icon: "Factory",
-    },
-    {
-      title: "Domestic & Residential Cleaning",
-      description:
-        "High‑quality home cleaning services tailored to your needs. From regular upkeep to deep cleaning, your home will shine.",
+        "Thorough home cleaning services including regular upkeep, deep cleaning, and tailored domestic solutions.",
       image: serviceResidential,
       icon: "Home",
     },
     {
-      title: "Specialized Sanitization",
+      title: "Upholstery & Carpet Cleaning",
       description:
-        "Advanced disinfection and sanitization services for sensitive environments, using eco‑friendly and effective methods.",
+        "Deep cleaning for sofas, carpets, and upholstery. Remove stains, dust, and allergens to restore freshness.",
       image: serviceFumigation,
-      icon: "Shield",
+      icon: "Sofa",
+    },
+    {
+      title: "Pest Control & Gardening",
+      description:
+        "Professional pest control services along with gardening and landscaping to keep your property beautiful and pest‑free.",
+      image: serviceIndustrial,
+      icon: "Sprout",
     },
   ],
 
   reviews: [
     {
-      name: "David Mwangi",
+      name: "Wanjugu Thitu",
       rating: 5,
-      text: "Panari Cleaning Services provided exceptional service for our office. Professional, thorough, and ISO certified – you can trust them. Highly recommended!",
+      text: "Great customer service & well trained stewards. I recommend them 💯",
+      date: "1 month ago",
+    },
+    {
+      name: "Jason Mburu",
+      rating: 5,
+      text: "Great customer service with highly trained stewards who makes sure the customer is 100% satisfied. Great value for money. Highly recommended",
+      date: "2 months ago",
+    },
+    {
+      name: "Mary Wanjiku",
+      rating: 5,
+      text: "I hired Mop and Shine for carpet cleaning and they did an amazing job. Professional, punctual, and affordable.",
       date: "3 weeks ago",
+    },
+    {
+      name: "Peter Kamau",
+      rating: 4,
+      text: "Very reliable office cleaning service. They keep our workplace spotless every week. Great team.",
+      date: "1 month ago",
+    },
+    {
+      name: "Grace Muthoni",
+      rating: 5,
+      text: "Their gardening and landscaping service transformed my compound. Highly professional and great results.",
+      date: "2 months ago",
     },
   ],
 
@@ -112,13 +136,13 @@ const businessConfig: BusinessConfig = {
     facebook: "",
     instagram: "",
     twitter: "",
-    whatsapp: "https://wa.me/254704918333",
+    whatsapp: "https://wa.me/254722675801",
   },
 
   seo: {
-    title: "PANARI CLEANING SERVICES | ISO Certified Cleaning Company in Nairobi",
+    title: "Mop and Shine | Best Cleaning Services in Nairobi & Kenya",
     description:
-      "ISO certified professional cleaning company in Nairobi. Members of ISSA, IDA, and KPCA. Commercial, industrial, and domestic cleaning. Environmentally friendly. Call 0704 918333.",
+      "Mop and Shine offers professional office cleaning, home cleaning, pest control, upholstery cleaning, gardening and landscaping in Nairobi and Kenya. Trusted, trained stewards. Call 0722 675801.",
   },
 };
 
